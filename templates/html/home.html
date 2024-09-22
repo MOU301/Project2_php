@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="settes/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="settes/bootstrap/css/style.css">
+    <link rel="stylesheet" href="settes/bootstrap/css/all.min.css">
+    <title>chat</title>
+</head>
+<body>
+    <div class="container">
+       <div class="chat p-3">
+        <div class="row">
+            <div class="col-3 bg-danger pt-4">
+                <div class="search d-flex">
+                    <input type="search" name="search" placeholder="search" > 
+                    <input type="submit" class="btn btn-primary" value="search">
+                </div>
+               <ul class="my-3">
+                    <li>Friends</li>
+                    <li>Requests</li>
+                    <li>Resposes</li>
+                    <li>Settes</li>
+               </ul>
+                <div class="friends mt-5 " >
+                    <h3 class="text-light bg-danger">friends</h3>
+                    <span class="close float-end m-2">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+                    <ul>
+                        <li class="friend-item">
+                            <h6 class="text-dark">Ahmad Ramadan</h6>
+                             <p class="text-dark">hi mohammad ho...</p>
+                        </li>
+                        <li class="friend-item">
+                            <h6 class="text-dark">Ahmad Ramadan</h6>
+                             <p class="text-dark">hi mohammad ho...</p>
+                        </li>
+                        <li class="friend-item">
+                            <h6 class="text-dark">Ahmad Ramadan</h6>
+                             <p class="text-dark">hi mohammad ho...</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="requests mt-5 " >
+                    <h3 class="text-light bg-danger">Requests</h3>
+                    <span class="close float-end m-2">
+                        <i class="fa-solid fa-xmark"></i>
+                    </span>
+                    <ul>
+                        <li class="request-item">
+                            <h6 class="text-dark">Ahmad Ramadan</h6>
+                            <div class="d-flex justify-content-around p-1">
+                                <button class="btn btn-danger">detels</button>
+                                <button class="btn btn-dark">delete</button>
+                                <button class="btn btn-primary">accept</button>
+                            </div>
+                        </li>
+                        <li class="request-item">
+                            <h6 class="text-dark">Ahmad Ramadan</h6>
+                            <div class="d-flex justify-content-around p-1">
+                                <button class="btn btn-danger">detels</button>
+                                <button class="btn btn-dark">delete</button>
+                                <button class="btn btn-primary">accept</button>
+                            </div>
+                        </li>
+                        <li class="request-item">
+                            <h6 class="text-dark">Ahmad Ramadan</h6>
+                            <div class="d-flex justify-content-around p-1">
+                                <button class="btn btn-danger">detels</button>
+                                <button class="btn btn-dark">delete</button>
+                                <button class="btn btn-primary">accept</button>
+                            </div>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </div>
+            <div class="col-9 bg-primary two">
+                <div class="head d-flex justify-content-around p-3">
+                    <div>
+                        <h4>Ahmad ramadan</h4>
+                        <span >state</span>
+                    </div>
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+
+                </div>
+                <div class="message p-3">
+                    <div class=" mt-3 d-flex justify-content-between">
+                        <div class="d-flex">
+                           <div class="image"></div>
+                           <p class="message-item">message</p> 
+                        </div>
+                        <span>date</span>
+                    </div>
+                    <div class="mt-3  d-flex justify-content-between">
+                        <span>date</span>
+                        <div class="d-flex">
+                            <p class="message-item">message</p> 
+                           <div class="image"></div>
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="create-message my-2 p-3" >
+                    <form action="" method="post">
+                        <div class="d-flex">
+                            <input type="text" name="message" class="form-control" placeholder="enter message">
+                            <input type="submit" name="send" value="send" class="btn btn-danger">
+                        </div>
+                    </form>
+                </div>
+            </div>
+           </div>
+       </div>
+    </div>
+</body>
+</html>
